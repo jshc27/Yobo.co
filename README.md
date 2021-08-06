@@ -14,7 +14,7 @@ Objective: To create a virtual library using HTML and CSS for the layout and JS 
 
 ## Demo
 
-URL?
+URL is added at the end of the project.
 
 ## Resources
 
