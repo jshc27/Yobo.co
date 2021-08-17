@@ -28,7 +28,7 @@ header ol {
 
 }
 
-header li {
+header li, .nav-image nav li {
     list-style: none;
     padding-left: 10px;
 }
@@ -39,7 +39,26 @@ header a {
     
 }
 
+.nav-image nav a {
+
+    text-decoration: none;
+}
+
 nav ul {
     padding: 20px 100px;
     
+}
+
+.nav-image {
+    height: 200px;
+    background-image: url('./images/Hero.png');
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-image nav ol {
+    display: flex;
+    list-style: none;
+
 }
