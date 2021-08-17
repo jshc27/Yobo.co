@@ -23,9 +23,9 @@ URL is added at the end of the project.
 <div align="center">
 <img src="https://user-images.githubusercontent.com/56690309/111365168-27581b00-8660-11eb-8c4b-a3351f48d7cc.png" width="700px" height="400px"/>
 </div> 
-
+<p>
 2. High fidelity prototype: https://www.figma.com/file/MbPjG4mCom1PQsejkQd3AB/Book-Store-Xook?node-id=2%3A2
-
+<p>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/56690309/111365326-5e2e3100-8660-11eb-865e-15fb226186ba.png" width="700px" height="400px"/>
 </div>
