@@ -59,5 +59,22 @@ nav ul {
 
     display: grid;
     justify-content: center;
+    height: inherit;
+    align-items: center;
     
+    
+}
+
+.search-bar {
+
+    height: 35px;
+    width: 300px;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    box-shadow: inset -2.5px -2.5px 5px #FAFBFF, inset 2.5px 2.5px 5px #A6ABBD;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 8px;
 }
