@@ -18,7 +18,6 @@ header {
     background-color: #F57710;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid white;
 
 }
 
@@ -28,7 +27,7 @@ header ol {
 
 }
 
-header li, .nav-image nav li {
+header li {
     list-style: none;
     padding-left: 10px;
 }
@@ -52,13 +51,13 @@ nav ul {
 .nav-image {
     height: 200px;
     background-image: url('./images/Hero.png');
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
-.nav-image nav ol {
-    display: flex;
-    list-style: none;
+.search-container {
 
+    display: grid;
+    justify-content: center;
+    
 }
