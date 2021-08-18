@@ -38,10 +38,6 @@ header a {
     
 }
 
-.nav-image nav a {
-
-    text-decoration: none;
-}
 
 nav ul {
     padding: 20px 100px;
@@ -49,10 +45,17 @@ nav ul {
 }
 
 .nav-image {
+    display: flex;
     height: 200px;
-    background-image: url('./images/Hero.png');
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: white;
 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .search-container {
