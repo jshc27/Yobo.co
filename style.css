@@ -89,6 +89,15 @@ nav ul {
 
 
 footer {
+    display: flex;
     height: 70px;
-    border: 1px solid red;
+    justify-content: center;
+}
+
+footer p, a {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
 }
