@@ -80,13 +80,15 @@ nav ul {
 }
 
 .main-container {
-    border: 1px solid red;
-    height: 300px;
-    margin: 50px 50px;
+
+    height: 400px;
+    margin: 100px 100px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 
 footer {
-    height: 80px;
+    height: 70px;
     border: 1px solid red;
 }
