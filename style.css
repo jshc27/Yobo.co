@@ -53,6 +53,11 @@ nav ul {
 
 }
 
+.enter a:hover {
+    background-color: white;
+    color: #212426;
+}
+
 .logo {
     display: flex;
     align-items: center;
