@@ -117,7 +117,6 @@ footer p, a {
 
 .card1, .card2, .card3, .card4 {
     display: grid;
-    justify-content: center;
     padding: 15px 15px;
     margin: 10px 10px;
     height: 300px;
@@ -127,6 +126,11 @@ footer p, a {
     border: 3px solid #E7EBF0;
     box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
     border-radius: 10px;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
 }
 
 .image {
