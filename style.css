@@ -120,9 +120,13 @@ footer p, a {
     justify-content: center;
     padding: 15px 15px;
     margin: 10px 10px;
-    border: 1px solid blue;
     height: 300px;
     width:180px;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    border: 3px solid #E7EBF0;
+    box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
+    border-radius: 10px;
 }
 
 .image {
