@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
 html {
+
     font-family: 'Lato', sans-serif;
+
 }
 
 body {
@@ -9,6 +11,7 @@ body {
     margin: 0px; 
     padding: 0px;
     background-color: #F57710;
+
 }
 
 header {
@@ -22,29 +25,35 @@ header {
 }
 
 header ol {
+
     display: flex;
     padding: 0px;
 
 }
 
 header li {
+
     list-style: none;
     padding-left: 10px;
+
 }
 
 header a {
+
     text-decoration: none;
     color: white;
-    
+
 }
 
 
 nav ul {
+
     padding: 20px 100px;
-    
+
 }
 
 .nav-image {
+
     display: flex;
     height: 200px;
     justify-content: space-between;
@@ -54,13 +63,17 @@ nav ul {
 }
 
 .enter a:hover {
+
     background-color: white;
     color: #212426;
+
 }
 
 .logo {
+
     display: flex;
     align-items: center;
+
 }
 
 .search-container {
@@ -69,8 +82,7 @@ nav ul {
     justify-content: center;
     height: inherit;
     align-items: center;
-    
-    
+
 }
 
 .search-bar {
@@ -85,6 +97,7 @@ nav ul {
     border-radius: 10px;
     outline: none;
     padding-left: 8px;
+
 }
 
 .main-container {
@@ -96,26 +109,32 @@ nav ul {
     margin: 100px 100px;
     background-color: white;
     border-radius: 10px;
+
 }
 
 
 footer {
+
     display: flex;
     height: 70px;
     justify-content: center;
+
 }
 
 footer p, a {
+
     display: flex;
     align-items: center;
     padding-left: 5px;
     color: white;
     text-decoration: none;
+
 }
 
 /* ------------------------------------ */
 
 .card1, .card2, .card3, .card4 {
+
     display: grid;
     padding: 15px 15px;
     margin: 10px 10px;
@@ -126,11 +145,14 @@ footer p, a {
     border: 3px solid #E7EBF0;
     box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
     border-radius: 10px;
+
 }
 
 .container-image {
+
     display: flex;
     justify-content: center;
+
 }
 
 .image {
@@ -138,16 +160,19 @@ footer p, a {
     height: 120px;
     width: 120px;
     border: 1px solid green;
-    
+
 }
 .container-titleDate {
 
     height: 30px;
     display: flex;
     align-items: center;
+
 }
 
 h2.title {
+
     padding-right: 10px;
+
 }
 
