@@ -29,6 +29,17 @@ fetch(url)
     image2.innerHTML =  `${data[1].cover}`;
     
 
+     // Llamado API book3
+
+    let title3 = document.getElementById('title3');
+    title3.innerHTML =  `${data[2].title}`;
+
+    let texto3 = document.getElementById('paragrapah3');
+    texto3.innerHTML =  `${data[2].content_short}`;
+
+    let image3 = document.getElementById('image3');
+    image3.innerHTML =  `${data[2].cover}`;
+
     console.log(data);
 })
 
