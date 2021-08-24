@@ -1,26 +1,23 @@
 // Agregaremos funciones y haremos el llamdo de una API para obtener datos y mostralos en pantalla
 
-posts = null;
-var contenedor = document.getElementById('h2')
+const url = "https://www.etnassoft.com/api/v1/get/?id=589";
+
+fetch(url)
+.then(response => response.json())
+.then(data => {
+
+    let title = document.getElementById('title');
+    title.innerHTML = 
+    `${data[0].title}`;
+
+    let texto = document.getElementById('paragrapah1');
+    texto.innerHTML =  `${data[0].content_short}`;
+
+    let cover = document.getElementById('image');
+    cover.innerHTML = `${data[0].cover}`;
 
 
-fetch('https://www.etnassoft.com/api/v1/get/?id=589')
-.then(data => data.json())
-.then( data => {
-    data = posts
+    console.log(data);
 })
 
-
-function mostrarDatos(posts) {
-
-    posts.map((post, i) => {
-        let titulo = document.createElement('h2');
-
-        titulo.innerHTML = (i + 1) + " - " + post.title;
-        contenido.innerHTML = post.body
-
-        contenedor.appendChild(titulo)
-
- })
-
-}
+.catch(err=>console.log(err))
