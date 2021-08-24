@@ -14,13 +14,19 @@ fetch(url)
     let texto1 = document.getElementById('paragrapah1');
     texto1.innerHTML = `${data[0].content_short}`;
 
-    let image1 = document.getElementById('image');
+    let image1 = document.getElementById('image1');
     image1.innerHTML =  `${data[0].cover}`;
 
     // Llamado API book2
 
     let title2 = document.getElementById('title2');
     title2.innerHTML =  `${data[1].title}`;
+
+    let texto2 = document.getElementById('paragrapah2');
+    texto2.innerHTML =  `${data[1].content_short}`;
+
+    let image2 = document.getElementById('image2');
+    image2.innerHTML =  `${data[1].cover}`;
     
 
     console.log(data);
