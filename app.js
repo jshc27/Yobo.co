@@ -29,7 +29,7 @@ fetch(url)
     texto2.innerHTML =  `${data[1].content_short}`;
 
     let image2 = document.getElementById('image2');
-    image2.innerHTML =  `${data[1].cover}`;
+    image2.innerHTML =  `<img width="100px" height="100px" src='${data[1].cover}'/>`;
     
 
     // Llamado API book3
