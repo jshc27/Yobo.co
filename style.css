@@ -141,7 +141,7 @@ footer p, a {
 
 /* ------------------------------------ */
 
-.card1, .card2, .card3, .card4 {
+.card {
 
     display: grid;
     padding: 15px 15px;

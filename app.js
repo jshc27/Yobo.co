@@ -2,9 +2,26 @@
 
 function searchProduct() {
 
-    const input = document.getElementById('filter').value;
-    console.log(input)
+    const input = document.getElementById('filter').value.toUpperCase();
+    const cardContainer = document.getElementById('list-cards');
+    console.log(cardContainer);
+
+
+    const cards = cardContainer.getElementsByClassName('card');
+    console.log(cards)
+
+    for(let i = 0; i < cards.length; i++) {
+        let title = cards[i].querySelector(".container-titleDate h4.title");
+        console.log(title);
+
+        if(title.innerText.toUpperCase.indexOf(input) > -1) {
+
+            
+        }
+    }
 }
+
+
 
 
 
