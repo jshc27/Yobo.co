@@ -133,6 +133,7 @@ footer p, a {
     display: flex;
     align-items: center;
     padding-left: 5px;
+    font-size: 14px;
     color: white;
     text-decoration: none;
 

@@ -1,5 +1,15 @@
 // Agregaremos funciones y haremos el llamdo de una API para obtener datos y mostralos en pantalla
 
+function searchProduct() {
+
+    const input = document.getElementById('filter').value;
+    console.log(input)
+}
+
+
+
+
+
 const url = "https://www.etnassoft.com/api/v1/get/?category=libros_programacion&criteria=most_viewed";
 
 
@@ -17,8 +27,6 @@ fetch(url)
 
     let image1 = document.getElementById('image1');
     image1.innerHTML =  `<img width="100px" height="100px" src='${data[0].cover}'/>`;
-
-    console.log(data[0].cover)
 
     //Llamado API book2
 
