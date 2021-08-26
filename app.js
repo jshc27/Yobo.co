@@ -15,12 +15,12 @@ fetch(url)
     let texto1 = document.getElementById('paragrapah1');
     texto1.innerHTML = `${data[0].content_short}`;
 
-    // let image1 = document.getElementById('image1');
-    // image1.innerHTML =  `${data[0].cover}`;
+    let image1 = document.getElementById('image1');
+    image1.innerHTML =  `<img width="100px" height="100px" src='${data[0].cover}'/>`;
 
-    // console.log(data[0].cover)
+    console.log(data[0].cover)
 
-    // Llamado API book2
+    //Llamado API book2
 
     let title2 = document.getElementById('title2');
     title2.innerHTML =  `${data[1].title}`;
@@ -57,4 +57,4 @@ fetch(url)
     console.log(data);
 })
 
-.catch(err=>console.log(err))
+.catch(err=>console.log(err));
