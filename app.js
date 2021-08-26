@@ -41,7 +41,8 @@ fetch(url)
     texto3.innerHTML =  `${data[2].content_short}`;
 
     let image3 = document.getElementById('image3');
-    image3.innerHTML =  `${data[2].cover}`;
+    image3.innerHTML =  `<img width="100px" height="100px" src='${data[2].cover}'/>`;
+    
 
     // Llamado API book4
 
@@ -52,7 +53,8 @@ fetch(url)
     texto4.innerHTML =  `${data[3].content_short}`;
 
     let image4 = document.getElementById('image4');
-    image4.innerHTML =  `${data[3].cover}`;
+    image4.innerHTML =  `<img width="100px" height="100px" src='${data[3].cover}'/>`;
+    
 
     console.log(data);
 })
