@@ -77,6 +77,25 @@ fetch(url)
     image4.innerHTML =  `<img width="100px" height="100px" src='${data[3].cover}'/>`;
     
 
+    // Llamado API book5
+
+    let title5 = document.getElementById('title5');
+    title5.innerHTML =  `${data[4].title}`;
+
+    let texto5 = document.getElementById('paragrapah5');
+    texto5.innerHTML =  `${data[4].content_short}`;
+
+    let image5 = document.getElementById('image5');
+    image5.innerHTML =  `<img width="100px" height="100px" src='${data[4].cover}'/>`;
+
+
+
+
+
+
+
+
+
     console.log(data);
 })
 
