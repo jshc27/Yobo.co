@@ -8,23 +8,19 @@ function searchProduct() {
 
 
     const cards = cardContainer.getElementsByClassName('card');
-    console.log(cards)
+    console.log(cards);
 
     for(let i = 0; i < cards.length; i++) {
         let title = cards[i].querySelector(".container-titleDate h4.title");
         console.log(title);
 
-        if(title.innerText.toUpperCase.indexOf(input) > -1) {
-
-            
+        if(title.innerText.toUpperCase().indexOf(input) > -1) {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
         }
     }
 }
-
-
-
-
-
 
 
 const url = "https://www.etnassoft.com/api/v1/get/?category=libros_programacion&criteria=most_viewed";

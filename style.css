@@ -109,14 +109,19 @@ nav ul {
 
 .main-container {
 
-    display: flex;
+    display: inline-table;
     justify-content: center;
     align-items: center;
     height: 400px;
     margin: 100px 100px;
+    padding: 20px;
     background-color: white;
     border-radius: 10px;
 
+}
+
+.containerFile1, .containerFile2 {
+    display: flex;
 }
 
 
