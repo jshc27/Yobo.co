@@ -107,6 +107,18 @@ nav ul {
 
 }
 
+.search-bar:hover {
+
+    
+    padding:1rem 1rem;
+    margin:0 1rem;
+    transition:all .5s ease;
+    letter-spacing:1px;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    
+}
+
 .main-container {
 
     display: inline-table;

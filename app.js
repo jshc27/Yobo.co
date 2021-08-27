@@ -52,7 +52,6 @@ fetch(url)
     let image2 = document.getElementById('image2');
     image2.innerHTML =  `<img width="100px" height="100px" src='${data[1].cover}'/>`;
     
-
     // Llamado API book3
 
     let title3 = document.getElementById('title3');
@@ -110,8 +109,16 @@ fetch(url)
     let image7 = document.getElementById('image7');
     image7.innerHTML =  `<img width="100px" height="100px" src='${data[6].cover}'/>`;
 
+    // Llamado API book8
 
+    let title8 = document.getElementById('title8');
+    title8.innerHTML =  `${data[7].title}`;
 
+    let texto8 = document.getElementById('paragrapah8');
+    texto8.innerHTML =  `${data[7].content_short}`;
+
+    let image8 = document.getElementById('image8');
+    image8.innerHTML =  `<img width="100px" height="100px" src='${data[7].cover}'/>`;
 
 
     console.log(data);
