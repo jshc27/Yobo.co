@@ -88,7 +88,7 @@ fetch(url)
     let image5 = document.getElementById('image5');
     image5.innerHTML =  `<img width="100px" height="100px" src='${data[4].cover}'/>`;
 
-    // Llamado API book5
+    // Llamado API book6
 
     let title6 = document.getElementById('title6');
     title6.innerHTML =  `${data[5].title}`;
@@ -99,6 +99,16 @@ fetch(url)
     let image6 = document.getElementById('image6');
     image6.innerHTML =  `<img width="100px" height="100px" src='${data[5].cover}'/>`;
 
+    // Llamado API book7
+
+    let title7 = document.getElementById('title7');
+    title7.innerHTML =  `${data[6].title}`;
+
+    let texto7 = document.getElementById('paragrapah7');
+    texto7.innerHTML =  `${data[6].content_short}`;
+
+    let image7 = document.getElementById('image7');
+    image7.innerHTML =  `<img width="100px" height="100px" src='${data[6].cover}'/>`;
 
 
 
