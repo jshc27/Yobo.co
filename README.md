@@ -2,7 +2,7 @@
 
 Yobo.co Web Application is a virtual library using the base technologies: HTML, CSS and JavaScript. 
 
-Objective: To create a virtual library using HTML and CSS for the layout and JS Vanilla for the interaction. Read from an API (fake or real online) and list books of different authors and genres. The application should allow filtering by genre, search by name and create a list of favorite books. No need to create registration system or login. fake api suggestion: https://bhagavadgita.io/api/
+Objective: To create a virtual library using HTML and CSS for the layout and JS Vanilla for the interaction. Read from an API (fake or real online) and list books of different authors and genres. The application should allow filtering by genre, search by name and create a list of favorite books. No need to create registration system or login. fake api suggestion:https://www.etnassoft.com/api/v1/get/?category=libros_programacion&criteria=most_viewed
 
 ## Installation
 
@@ -27,7 +27,7 @@ URL is added at the end of the project.
 2. High fidelity prototype: https://www.figma.com/file/MbPjG4mCom1PQsejkQd3AB/Book-Store-Xook?node-id=2%3A2
 <p>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/56690309/130001226-57633272-2252-41b2-97dc-dd7f1105acc8.png" width="700px" height="400px"/>
+<img src="https://user-images.githubusercontent.com/56690309/131399067-00824f19-d439-43ea-bc40-e23f7af6659a.png" width="700px" height="400px"/>
 </div>
 
 ## Typography
