@@ -1,4 +1,4 @@
-// Agregaremos funciones y haremos el llamdo de una API para obtener datos y mostralos en pantalla
+// Funcion para hacer busqueda y filtro de libros.
 
 function searchProduct() {
 
@@ -22,7 +22,7 @@ function searchProduct() {
     }
 }
 
-
+//FAKE API
 const url = "https://www.etnassoft.com/api/v1/get/?category=libros_programacion&criteria=most_viewed";
 
 
@@ -30,7 +30,7 @@ fetch(url)
 .then(response => response.json())
 .then(data => {
 
-    // Llamado API book1
+    // Llamado API Book1
 
     let title1 = document.getElementById('title1');
     title1.innerHTML = `${data[0].title}`;
@@ -41,7 +41,7 @@ fetch(url)
     let image1 = document.getElementById('image1');
     image1.innerHTML =  `<img width="100px" height="100px" src='${data[0].cover}'/>`;
 
-    //Llamado API book2
+    //Llamado API Book2
 
     let title2 = document.getElementById('title2');
     title2.innerHTML =  `${data[1].title}`;
@@ -52,7 +52,7 @@ fetch(url)
     let image2 = document.getElementById('image2');
     image2.innerHTML =  `<img width="100px" height="100px" src='${data[1].cover}'/>`;
     
-    // Llamado API book3
+    // Llamado API Book3
 
     let title3 = document.getElementById('title3');
     title3.innerHTML =  `${data[2].title}`;
@@ -64,7 +64,7 @@ fetch(url)
     image3.innerHTML =  `<img width="100px" height="100px" src='${data[2].cover}'/>`;
     
 
-    // Llamado API book4
+    // Llamado API Book4
 
     let title4 = document.getElementById('title4');
     title4.innerHTML =  `${data[3].title}`;
@@ -76,7 +76,7 @@ fetch(url)
     image4.innerHTML =  `<img width="100px" height="100px" src='${data[3].cover}'/>`;
     
 
-    // Llamado API book5
+    // Llamado API Book5
 
     let title5 = document.getElementById('title5');
     title5.innerHTML =  `${data[4].title}`;
@@ -87,7 +87,7 @@ fetch(url)
     let image5 = document.getElementById('image5');
     image5.innerHTML =  `<img width="100px" height="100px" src='${data[4].cover}'/>`;
 
-    // Llamado API book6
+    // Llamado API Book6
 
     let title6 = document.getElementById('title6');
     title6.innerHTML =  `${data[5].title}`;
@@ -98,7 +98,7 @@ fetch(url)
     let image6 = document.getElementById('image6');
     image6.innerHTML =  `<img width="100px" height="100px" src='${data[5].cover}'/>`;
 
-    // Llamado API book7
+    // Llamado API Book7
 
     let title7 = document.getElementById('title7');
     title7.innerHTML =  `${data[6].title}`;
@@ -109,7 +109,7 @@ fetch(url)
     let image7 = document.getElementById('image7');
     image7.innerHTML =  `<img width="100px" height="100px" src='${data[6].cover}'/>`;
 
-    // Llamado API book8
+    // Llamado API Book8
 
     let title8 = document.getElementById('title8');
     title8.innerHTML =  `${data[7].title}`;
